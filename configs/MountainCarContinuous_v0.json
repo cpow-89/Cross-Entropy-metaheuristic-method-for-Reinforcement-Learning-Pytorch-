@@ -1,0 +1,21 @@
+{
+  "env_name": "MountainCarContinuous-v0",
+  "objective_function": "gym_objective_func",
+  "monitor_dir": [ "monitor" ],
+  "checkpoint_dir": [ "checkpoints" ],
+  "Network": "ContinuousPolicyNetwork",
+  "is_training": true,
+  "average_score_for_solving": 90.0,
+  "observation_space": 2,
+  "fc1_activation_func": "ReLU",
+  "hidden_nodes": 16,
+  "output_activation_func": "Tanh",
+  "action_space": 1,
+  "population_size": 16,
+  "max_number_of_episodes": 500,
+  "max_steps_in_episodes": 1000,
+  "gamma": 1.0,
+  "elitism_rate": 0.2,
+  "sigma": 0.5,
+  "seed": 123
+}

@@ -1,0 +1,21 @@
+{
+  "env_name": "CartPole-v1",
+  "objective_function": "gym_objective_func",
+  "monitor_dir": [ "monitor" ],
+  "checkpoint_dir": [ "checkpoints" ],
+  "Network": "DiscretePolicyNetwork",
+  "is_training": true,
+  "average_score_for_solving": 195.0,
+  "observation_space": 4,
+  "fc1_activation_func": "ReLU",
+  "hidden_nodes": 16,
+  "output_activation_func": "Tanh",
+  "action_space": 2,
+  "population_size": 16,
+  "max_number_of_episodes": 500,
+  "max_steps_in_episodes": 200,
+  "gamma": 1.0,
+  "elitism_rate": 0.2,
+  "sigma": 0.5,
+  "seed": 1
+}
